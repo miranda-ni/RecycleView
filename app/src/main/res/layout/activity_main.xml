@@ -9,6 +9,7 @@
    <androidx.recyclerview.widget.RecyclerView
        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
        android:id="@+id/recycler"
+       tools:listitem="@layout/view_holder_main"
        android:layout_width="match_parent"
        android:layout_height="match_parent"/>
 
@@ -18,8 +19,8 @@
       android:id="@+id/button"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-      android:text="Add new element"
-      android:textSize="30dp" 
+      android:text="Add new students"
+      android:textSize="30dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintRight_toRightOf="parent" />
 

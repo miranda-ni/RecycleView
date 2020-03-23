@@ -35,5 +35,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainViewHolder> {
     }
     public void addText(String string){
         data.add(string);
+        notifyDataSetChanged();
     }
 }
