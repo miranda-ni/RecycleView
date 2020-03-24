@@ -43,9 +43,8 @@ public class MainActivity extends AppCompatActivity {
             String res = data.getStringExtra("name");
             String res1 = data.getStringExtra("surname");
             String res2 = data.getStringExtra("group");
-            adapter.addText(res);
-            adapter.addText(res1);
-            adapter.addText(res2);
+            adapter.addText(res +res1 + res2);
+
 
 
         }
